@@ -7,6 +7,7 @@
       "handlers" : {
         "run" : "matchBigWidth"
       },
+      "shortcut" : "cmd alt shift )",
       "identifier" : "matchBigWidth"
     },
     {
@@ -15,6 +16,7 @@
       "handlers" : {
         "run" : "matchSmallWidth"
       },
+      "shortcut" : "cmd alt shift (",
       "identifier" : "matchSmallWidth"
     },
     {
@@ -23,6 +25,7 @@
       "handlers" : {
         "run" : "matchBigHeight"
       },
+      "shortcut" : "cmd alt shift }",
       "identifier" : "matchBigHeight"
     },
     {
@@ -31,6 +34,7 @@
       "handlers" : {
         "run" : "matchSmallHeight"
       },
+      "shortcut" : "cmd alt shift {",
       "identifier" : "matchSmallHeight"
     }
   ],
