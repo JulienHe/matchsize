@@ -1,57 +1,56 @@
 {
-  "author" : "Julien Henrotte",
-  "commands" : [
-    {
-      "script" : "script.cocoascript",
-      "name" : "Match biggest width",
-      "handlers" : {
-        "run" : "matchBigWidth"
-      },
-      "shortcut" : "cmd alt shift )",
-      "identifier" : "matchBigWidth"
-    },
-    {
-      "script" : "script.cocoascript",
-      "name" : "Match smallest width",
-      "handlers" : {
-        "run" : "matchSmallWidth"
-      },
-      "shortcut" : "cmd alt shift (",
-      "identifier" : "matchSmallWidth"
-    },
-    {
-      "script" : "script.cocoascript",
-      "name" : "Match biggest height",
-      "handlers" : {
-        "run" : "matchBigHeight"
-      },
-      "shortcut" : "cmd alt shift }",
-      "identifier" : "matchBigHeight"
-    },
-    {
-      "script" : "script.cocoascript",
-      "name" : "Match smallest height",
-      "handlers" : {
-        "run" : "matchSmallHeight"
-      },
-      "shortcut" : "cmd alt shift {",
-      "identifier" : "matchSmallHeight"
-    }
-  ],
-  "menu" : {
-    "title" : "Match Size",
-    "items" : [
-      "matchBigWidth",
-      "matchSmallWidth",
-      "-",
-      "matchBigHeight",
-      "matchSmallHeight",
-    ]
-  },
-  "identifier" : "com.julienhe.matchsize",
-  "version" : "1.0.0",
-  "description" : "Match and change the size of shapes / texts, basically layers.",
-  "authorEmail" : "hoshi.graphi@gmail.com",
-  "homepage" : "https://github.com/JulienHe/matchsize",
-  "name" : "🦏 Match size",
+	"author": "Julien Henrotte",
+	"commands": [{
+			"script": "script.cocoascript",
+			"name": "Match biggest width",
+			"handlers": {
+				"run": "matchBigWidth"
+			},
+			"shortcut": "cmd alt shift )",
+			"identifier": "matchBigWidth"
+		},
+		{
+			"script": "script.cocoascript",
+			"name": "Match smallest width",
+			"handlers": {
+				"run": "matchSmallWidth"
+			},
+			"shortcut": "cmd alt shift (",
+			"identifier": "matchSmallWidth"
+		},
+		{
+			"script": "script.cocoascript",
+			"name": "Match biggest height",
+			"handlers": {
+				"run": "matchBigHeight"
+			},
+			"shortcut": "cmd alt shift }",
+			"identifier": "matchBigHeight"
+		},
+		{
+			"script": "script.cocoascript",
+			"name": "Match smallest height",
+			"handlers": {
+				"run": "matchSmallHeight"
+			},
+			"shortcut": "cmd alt shift {",
+			"identifier": "matchSmallHeight"
+		}
+	],
+	"menu": {
+		"title": "Match Size",
+		"items": [
+			"matchBigWidth",
+			"matchSmallWidth",
+			"-",
+			"matchBigHeight",
+			"matchSmallHeight"
+		]
+	},
+	"identifier": "com.julienhe.matchsize",
+	"version": "1.0.0",
+	"description": "Match and change the size of shapes / texts, basically layers.",
+	"authorEmail": "hoshi.graphi@gmail.com",
+	"homepage": "https://github.com/JulienHe/matchsize",
+	"name": "🦏 Match size"
 }
