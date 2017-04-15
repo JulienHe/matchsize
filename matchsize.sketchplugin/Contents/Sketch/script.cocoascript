@@ -1,0 +1,53 @@
+@import 'common.js';
+
+var matchBigWidth = function(context) {
+  var app = [NSApplication sharedApplication];
+  var selectedLayers = context.selection;
+  var selectedCount = selectedLayers.count();
+
+  if (selectedCount <= 1) {
+     alert("Match biggest width", "Please select at least 2 layers")
+  } else {
+    var arraySize = createWidthArray(selectedCount, selectedLayers);
+    setShapesWidth(selectedCount, selectedLayers, maxArray(arraySize));
+  };
+};
+
+var matchSmallWidth = function(context) {
+  var app = [NSApplication sharedApplication];
+  var selectedLayers = context.selection;
+  var selectedCount = selectedLayers.count();
+
+  if (selectedCount <= 1) {
+     alert("Match smallest width", "Please select at least 2 layers")
+  } else {
+    var arraySize = createWidthArray(selectedCount, selectedLayers);
+    setShapesWidth(selectedCount, selectedLayers, minArray(arraySize));
+  };
+};
+
+var matchBigHeight = function(context) {
+  var app = [NSApplication sharedApplication];
+  var selectedLayers = context.selection;
+  var selectedCount = selectedLayers.count();
+
+  if (selectedCount <= 1) {
+     alert("Match biggest height", "Please select at least 2 layers")
+  } else {
+    var arraySize = createHeightArray(selectedCount, selectedLayers);
+    setShapesHeight(selectedCount, selectedLayers, maxArray(arraySize));
+  };
+};
+
+var matchSmallHeight = function(context) {
+  var app = [NSApplication sharedApplication];
+  var selectedLayers = context.selection;
+  var selectedCount = selectedLayers.count();
+
+  if (selectedCount <= 1) {
+     alert("Come on buddy <3", "Please select at least 2 layers")
+  } else {
+    var arraySize = createHeightArray(selectedCount, selectedLayers);
+    setShapesHeight(selectedCount, selectedLayers, minArray(arraySize));
+  };
+};
